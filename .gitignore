@@ -1,0 +1,14 @@
+# Hugo generated output
+/public/
+/resources/_gen/
+
+# Hugo lock file
+.hugo_build.lock
+
+# OS files
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+        {{- if .IsHome -}}
+            {{ site.Title }}
+        {{- else -}}
+            {{ .Title }} | Vi-Nk
+        {{- end -}}
+    </title>
+
+    <meta
+        name="description"
+        content="{{ site.Params.description }}"
+    >
+
+    <meta name="author" content="{{ site.Params.author }}">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container header-content">
+
+        <a class="site-title" href="/">
+            Vi-Nk
+        </a>
+
+        <nav class="site-nav">
+            <a href="/">Home</a>
+
+            <a
+                href="https://github.com/Vi-Nk"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub
+            </a>
+        </nav>
+
+    </div>
+</header>
+
+<main class="container">
+    {{ block "main" . }}
+    {{ end }}
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+
+        <p>
+            © {{ now.Year }} Vi-Nk
+        </p>
+
+    </div>
+</footer>
+
+</body>
+
+</html>
