@@ -1,7 +1,0 @@
-baseURL = 'https://vi-nk.github.io/'
-locale = 'en-us'
-title = 'Vi-Nk | Backend & Systems Engineer'
-
-[params]
-  author = 'Vi-Nk'
-  description = 'Backend and systems engineer working on distributed systems, security, control planes, edge systems'

@@ -1,0 +1,93 @@
+baseURL: "https://vi-nk.github.io/"
+title: "Vi-Nk"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+
+  title: "Vi-Nk"
+
+  description: >-
+    Backend and systems engineer working on distributed systems,
+    security, control planes, edge systems, and Go.
+
+  author: "Vi-Nk"
+
+  keywords:
+    - Backend Engineering
+    - Distributed Systems
+    - Go
+    - Security
+    - Control Planes
+    - Edge Systems
+
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+  ShowShareButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+
+  # Only projects are listed underneath the overview on the homepage.
+  mainSections:
+    - projects
+
+  homeInfoParams:
+    Title: "Vi-Nk"
+    Content: |-
+      **Backend & Systems Engineer**
+
+      Distributed Systems · Security · Control Planes · Edge Systems
+
+      I build and explore backend and systems software with an emphasis
+      on reliability, security, and distributed-system behavior.
+
+      Currently going deeper into **Go**, backend systems,
+      and distributed systems.
+
+  socialIcons:
+    - name: github
+      title: "GitHub"
+      url: "https://github.com/Vi-Nk"
+
+menu:
+  main:
+    - identifier: projects
+      name: "Projects"
+      url: "/projects/"
+      weight: 10
+
+    - identifier: writing
+      name: "Writing"
+      url: "/posts/"
+      weight: 20
+
+    - identifier: search
+      name: "Search"
+      url: "/search/"
+      weight: 30
+
+    - identifier: github
+      name: "GitHub"
+      url: "https://github.com/Vi-Nk"
+      weight: 40
