@@ -48,9 +48,7 @@ params:
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
 
-  # Only projects are listed underneath the overview on the homepage.
-  mainSections:
-    - projects
+  mainSections: []
 
   homeInfoParams:
     Title: "Vi-Nk"
