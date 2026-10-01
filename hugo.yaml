@@ -4,6 +4,10 @@ theme: "PaperMod"
 
 enableRobotsTXT: true
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 pagination:
   pagerSize: 10
 
@@ -55,12 +59,12 @@ params:
     Content: |-
       **Backend & Systems Engineer**
 
-      Distributed Systems · Security · Control Planes · Edge Systems
+      Distributed Systems · Control Planes · Edge Systems · Security 
 
       I build and explore backend and systems software with an emphasis
       on reliability, security, and distributed-system behavior.
 
-      Currently going deeper into **Go**, backend systems,
+      Currently going deeper into Go, control planes,
       and distributed systems.
 
   socialIcons:
